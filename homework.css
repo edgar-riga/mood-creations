@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+
+div {
+}
+.menu {
+	background-color:red;
+	font-size:18px;
+	width: 100%;
+	/*length: 600px;*/
+	display:flex;
+	justify-content:flex-end;
+	color:white;
+}
+.m{
+	padding:10px;
+}
+.mood{
+  width: 100%;
+  background-image: url("mood_images/bg-red.svg");
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.mood h1 {
+  display: inline-block;
+}
+
+.about {
+	height: 500px;
+	width:100%;
+}
+.services {
+	background-color: green;
+}
+.poli {
+	background-color: blue;
+}
+.design{
+	background-color: teal;
+}
+.works {
+background-color: orange;
+}
+
+.price {
+	background-color: purple;
+}
+.team {
+	background-color: violet;
+}
+.contacts {
+	background-color: yellow;
+}

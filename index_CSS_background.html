@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WebSkola — CSS backround</title>
+  <style>
+    div {
+      padding: 20px;
+      width: 60%;
+    }
+    .block1 {
+      background-image: url("img/desk.jpg");
+      background-position: center;
+      /* background-position: center; */
+      /* background-attachment: fixed; */
+      /* background-origin: content-box; */
+      background-clip: content-box;
+      background-color: chocolate;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-size: 50% 50%; */
+      /* border: 20px dashed black; */
+      padding: 50px;
+      height: 1200px;
+    }
+    .block2 {
+      background-color: rgb(200, 0, 50);
+      background-image: url("img/mood/fb.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 30%;
+      border-radius: 0 0 40px 0;
+      box-shadow: 0 20px 15px rgba(50, 50, 50, 0.3);
+      /* text-shadow: 3px 3px 2px red; */
+      opacity: 0.2;
+    }
+    .one {
+      background-color: hsl(12,60%, 20%);
+    }
+    .two {
+      background-color: hsl(12,80%, 20%);
+    }
+    .three {
+    }
+    .block3 {
+      background-color: hsl(12,100%, 20%);
+      margin-top: 300px;
+      width: 100%;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>CSS Blocks</h2>
+
+<div class="block1">
+  <h3>
+    Some text here
+  </h3>
+  <div class="block2">
+    <h1>
+    Some Another text
+    </h1>
+  </div>
+</div>
+
+</body>
+</html>

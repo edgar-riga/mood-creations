@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+}
+div {
+	color:white;
+}
+.menu {
+	background-color:red;
+	font-size:18px;
+    border:1px dotted darkred;
+	width:100%;
+	height:40px;
+	display:flex;
+	justify-content:flex-end;
+	// padding-right:50px;
+	// padding-left:50px;
+}
+.m{
+	padding:10px;
+}
+.about{
+	background-image:url("bg-red.svg");
+	background-repeat:no-repeat;
+	height:500px;
+	width:100%;
+	text-align:center;
+	color:white;
+}
+	.about > h1{
+		padding-top: 200px;
+		display:inline-block;
+	}
+
+p{
+		/*display:inline-block;*/
+		/*padding-right:300px;*/
+		/*padding-left:300px;*/
+		color:white;
+}
+.services{
+	background-color:#D23D3D;
+	height:400px;
+	width:100%;
+	text-align:center;
+	color:white;
+}
+.services1{
+	display:flex;
+	justify-content: center;
+	padding-left:30px;
+	padding-right:40px;
+}
+.services1 div{
+	width:200px;
+}
+.works{
+	background-image:url("bg-green.svg");
+	background-repeat:no-repeat;
+	height:500px;
+	width:100%;
+	text-align:center;
+	color:white;
+}
+	.works h2{
+		padding-top: 200px;
+		display:inline-block;
+	}
+	.works p{
+		display:inline-block;
+		padding-right:300px;
+		padding-left:300px;
+	}
+	.poli, .design, .grafic{
+    padding-left: 30px;
+
+	}
+.photos img {
+  display: compact;
+	width: 150px;
+  height: 150px;
+	margin:0;
+	object-fit: cover;
+}
+.price {
+	background-image:url("bg-blue.svg");
+	background-repeat:no-repeat;
+	height:500px;
+	width:100%;
+	color:white;
+	text-align:center;
+}
+.team {
+	background-color: green;
+	width:100%;
+	height:500px;
+	text-align:center;
+}
+.contacts {
+	background-image:url("bg-blue.svg");
+	width:100%;
+	height:500px;
+	text-align:center;
+}
+.map{
+	background-image:url("");
+	background-repeat:no-repeat;
+	width:100%;
+	height:200px;
+}
+.footer2{
+	background:darkblue;
+	width:100%;
+	height:50px;
+}

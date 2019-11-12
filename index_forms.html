@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Forms</title>
+  <style>
+    form {
+      margin-bottom: 50px;
+    }
+    .fieldset {
+      background-color: #888888;
+    }
+  </style>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<!--<h3>Text input:</h3>-->
+<!--<form>-->
+  <!--First name:<br>-->
+  <!--<input type="text" name="firstname" title="Name" value="Иван">-->
+  <!--<br>-->
+  <!--Last name:<br>-->
+  <!--<input type="text" name="lastname" title="Surname" value="Петров">-->
+  <!--<br><br>-->
+  <!--<input type="submit">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<h3>Radio buttons:</h3>-->
+<!--<form>-->
+  <!--<label>-->
+    <!--Мужской-->
+    <!--<input type="radio" name="gender" title="Male" value="male" >-->
+  <!--</label><br>-->
+  <!--<label>-->
+    <!--Женский-->
+    <!--<input type="radio" name="gender" title="Female" value="female" checked>-->
+  <!--</label>-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<h3>Fieldset:</h3>
+<form style="width: 60%;">
+  <fieldset class="fieldset">
+    <legend>Персональная информация:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Иван"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Петров"><br><br>
+  </fieldset>
+  <fieldset>
+    <legend>Информация о животных:</legend>
+    Имя собаки:<br>
+    <input type="text" name="dog"><br>
+    Имя кошки:<br>
+    <input type="text" name="cat"><br><br>
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--<label>Это описание поля ввода <br>-->
+    <!--&lt;!&ndash;<textarea name="comment" id="comment-field" rows="3" placeholder="+XXX XX XXX XXX"></textarea>&ndash;&gt;-->
+    <!--<textarea name="comment" style="width:500px; height:100px;" placeholder=""></textarea>-->
+  <!--</label><br>-->
+  <!--<input type="submit" value="Отправить">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--<label>-->
+    <!--Введите пароль:-->
+    <!--<input name="comment" id="password-field" type="password">-->
+  <!--</label><br>-->
+  <!--<input type="submit" value="Отправить">-->
+<!--</form>-->
+
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form action="">-->
+  <!--<label for="select">Select dropdown</label>-->
+  <!--<select id="select" name="cars" size="1">-->
+    <!--&lt;!&ndash;<select id="select" name="cars" size="6" multiple>&ndash;&gt;-->
+    <!--<option value="empty"></option>-->
+    <!--<option value="volvo">Volvo</option>-->
+    <!--<option value="saab">Saab</option>-->
+    <!--<option value="fiat">Fiat</option>-->
+    <!--&lt;!&ndash;<option value="ford" selected>Ford</option>&ndash;&gt;-->
+    <!--<option value="audi">Audi</option>-->
+  <!--</select>-->
+  <!--<input type="submit" value="Отправить"><br>-->
+  <!--<input type="reset">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--<label>-->
+    <!--<input type="checkbox" name="vehicle1" value="Bike" >-->
+    <!--I have a bike-->
+  <!--</label><br>-->
+  <!--<input type="checkbox" id="second_checkbox" name="vehicle2" value="Car">-->
+  <!--<label for="second_checkbox">I have a car</label>-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form action="">-->
+  <!--<input type="button" onclick="alert('Hello World!')" value="Click Me!">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--Select your favorite color:-->
+  <!--<input type="color" name="favcolor">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--Birthday:-->
+  <!--<input type="date" name="bday">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--E-mail:-->
+  <!--<input type="email" name="email">-->
+  <!--<input type="submit">-->
+<!--</form>-->
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--Select a file: <input type="file" name="myFile">-->
+<!--</form>-->
+
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<!--<form>-->
+  <!--Quantity (between 1 and 5):-->
+  <!--<input type="number" name="quantity" min="0" max="50">-->
+  <!--<input type="reset" value="сброс">-->
+<!--</form>-->
+
+</body>
+</html>
